@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: ekergodash_left
+    shield: ergodash_left
   - board: nice_nano_v2
-    shield: ekergodash_right
+    shield: ergodash_right
