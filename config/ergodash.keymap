@@ -54,7 +54,7 @@
  * .----------------------------------------------------------------------------------------------------------------------.
  */ /* FIXME boot and reset are not yet locale aware */
             bindings = <
-&kp F11       &kp F1        &kp F2            &kp F3             &kp F4  &kp F5  &kp F6                  &to 0  &kp F7  &kp F8  &kp F9  &kp F10   &kp F11   &kp F12
+&kp TAB       &kp F1        &kp F2            &kp F3             &kp F4  &kp F5  &kp F6                  &to 0  &kp F7  &kp F8  &kp F9  &kp F10   &kp F11   &kp F12
 &kp N7        &kp N8        &kp N9            &kp I              &kp U   &kp Y   &none                   &to 1  &none   &none   &none   &none     &none     &kp EQUAL
 &kp N4        &kp N5        &kp N6            &kp K              &kp J   &kp H   &kp P                   &to 2  &none   &none   &none   &none     &none     &kp NON_US_BACKSLASH
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &none              &kp M   &kp N           &none   &none          &none   &none   &none   &none     &kp UP    &trans
