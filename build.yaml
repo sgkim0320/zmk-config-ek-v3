@@ -24,14 +24,19 @@
 #    shield: ergodash_right nice_view_adapter nice_view
 # - board: nice_nano_v2
 #   shield: settings_reset
+#---
+#include:
+#  - board: nice_nano_v2
+#    shield: ergodash_left nice_view_adapter nice_epaper
+#    snippet: nrf52840-nosd
+#  - board: nice_nano_v2
+#    shield: ergodash_right nice_view_adapter nice_epaper
+#    snippet: nrf52840-nosd
+#  - board: nice_nano_v2
+#    shield: settings_reset
 ---
 include:
   - board: nice_nano_v2
-    shield: ergodash_left #nice_view_adapter nice_epaper
-   # snippet: nrf52840-nosd
+    shield: ergodash_left
   - board: nice_nano_v2
-    shield: ergodash_right #nice_view_adapter nice_epaper
-  #  snippet: nrf52840-nosd
-  - board: nice_nano_v2
-    shield: settings_reset
-   
+    shield: ergodash_right   
